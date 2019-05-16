@@ -1,0 +1,43 @@
+input[type="text"]
+    background-color darkerWhite
+    color Ink
+    height 25px
+    border-radius 5px
+    border 1px solid darkestWhite
+    padding 12.5px 0px 12.5px 20px
+    &:focus
+        background darkestWhite
+        border 1px solid mostDarkestWhite
+    &::placeholder
+        color lighterInk
+textarea
+    @extend input[type="text"]
+    height  180px           
+input[type="checkbox"]
+    display none
+    & + label > span
+        font-size 18px 
+    & + label:before
+        border 1px solid mostDarkestWhite
+        background darkestWhite
+        content "\00a0"
+        display inline-block
+        height 25px
+        width 25px
+        margin .9em .75em
+        vertical-align middle 
+        border-radius 1.73px
+    &:checked + label:before
+        border none
+        content: "\2713"  
+        background Blue
+        color White
+        text-align center
+ 
+.input
+    &--small
+        max-width 200px
+    &--medium
+        max-width 295px
+    &--large
+        max-width: 400px        
