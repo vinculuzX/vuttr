@@ -1,4 +1,4 @@
-# bossabox
+# VUTTR
 this project has to ideia to accomplish the challenge proposit to BossaBox, bellow you can follow the instruction.
 
 ## Project setup
