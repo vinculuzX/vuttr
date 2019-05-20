@@ -47,11 +47,12 @@ or Alternative on root project
 ```
 npm run api
 ```
+## Run Project Aplication
+
+Tips: Will be better run the API first than project.
 
 ### Compiles and hot-reloads for development
 Run the project needs to exec command bellow:
-
-Tips: Will be better run the API first than project.
 
 ```
 npm run serve
